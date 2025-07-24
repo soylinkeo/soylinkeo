@@ -664,3 +664,52 @@ nav {
     max-width: 375px;
   }
 }
+#bloqueoOverlay {
+  position: fixed;
+  inset: 0;
+  background: #000;
+  z-index: 9999;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: 'Segoe UI', sans-serif;
+  padding: 2rem;
+  text-align: center;
+}
+
+#bloqueoOverlay h1 {
+  font-size: 2.8rem;
+  margin-bottom: 0.5rem;
+  font-weight: bold;
+}
+
+#bloqueoOverlay p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+}
+
+.countdown-box {
+  display: flex;
+  gap: 1rem;
+}
+
+.countdown-item {
+  background: #1a1a1a;
+  padding: 1rem;
+  border-radius: 12px;
+  width: 80px;
+  box-shadow: 0 0 10px rgba(255,255,255,0.1);
+}
+
+.countdown-item h2 {
+  font-size: 1.8rem;
+  margin: 0;
+  font-weight: bold;
+}
+
+.countdown-item span {
+  font-size: 0.9rem;
+  color: #ccc;
+}
